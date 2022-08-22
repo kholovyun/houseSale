@@ -1,0 +1,54 @@
+.card__row
+    display: flex
+    justify-content: space-between
+    padding-top: 70px 
+    padding-bottom: 1em
+    +medium
+        flex-direction: column
+        align-items: center
+    .card__link
+        width: 31%
+        max-height: 507px
+        text-decoration: none
+        text-align: center
+        position: relative
+        overflow: hidden
+        box-shadow: 0px 4px 59px -14px rgba(171, 124, 0, 0.29)
+        +medium
+            width: 80%
+            margin-top: 2em
+        img
+            min-width: 100%
+            object-fit: cover
+            object-position: center
+        .card__text
+            width: 100%
+            background: #fff
+            position: absolute
+            bottom: -5px
+            height: 20%
+            padding: 1.8em
+            font-family: $main__font
+            font-style: normal
+            font-weight: 700
+            font-size: 14px
+            line-height: 19px
+            color: #000000
+            span
+                display: flex
+                align-items: center
+            span:before
+                content: ">"
+                display: flex
+                height: 38px
+                width: 38px
+                border-radius: 50% 
+                background: #FFC839
+                box-shadow: 1px 4px 4px #E1DFD9
+                align-items: center
+                justify-content: center
+                margin-right: 1em
+    
+        
+
+            

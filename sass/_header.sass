@@ -1,0 +1,64 @@
+.header__bg
+    background-image: $header__bg__gradient, url('../img/header__bg.jpg')
+    background-size: cover
+    width: 100%
+    padding-bottom: 210px
+    .header__head
+        display: flex
+        justify-content: space-between
+        padding-top: 42px
+        +medium 
+            flex-direction: column
+            text-align: center
+        .header__head__logo
+             +medium 
+                width: 15em
+        .header__nav__menu
+            display: flex
+            justify-content: space-between
+            +medium 
+                margin-top: 2em 
+            +smedium
+                flex-direction: column 
+            &__link
+                text-decoration: none
+                font-family: $anker__font   
+                font-style: normal
+                font-weight: 400
+                font-size: 18px
+                line-height: 21px
+                color: #FFFFFF
+                margin-right: 3em
+                +medium
+                    margin: 0
+                +smedium
+                    margin-bottom: 2em
+                    font-size: 22px
+                    background: #7fb8d26f
+                    padding: 1em
+                 
+    .header__text
+        max-width: 70%
+        font-family: $main__font
+        text-align: start
+        color: #FFFFFF
+        font-style: normal
+        margin-top: 210px
+        +smedium
+            margin-top: 60px
+            text-align: center
+            max-width: 100% 
+        .header__title
+            font-weight: 700
+            font-size: 60px
+            line-height: 82px
+            margin-bottom: 21px
+            +small
+                font-size: 40px
+                line-height: 55px
+        .header__paragraph 
+            font-weight: 400
+            font-size: 29px
+            line-height: 40px
+            
+        

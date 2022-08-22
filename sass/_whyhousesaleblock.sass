@@ -1,0 +1,81 @@
+.why__housesale__block
+    display: flex
+    justify-content: space-between
+    padding-top: 100px
+    padding-bottom: 100px
+    .why__image
+        background: url(../img/appartment.jpg) center
+        background-size: cover
+        width: 32%
+        height: 500px
+        position: relative
+        +medium
+            display: none
+        .why__image__left__block
+            width: 16%
+            height: 80%
+            background: #FFC839
+            position: absolute
+            right: 100%
+            top: 50%
+            transform: translateY(-50%  )
+    .why__housesale__col
+        display: flex
+        flex-direction: column
+        justify-content: space-between
+        .why__housesale__col__title
+            font-family: $main__font
+            font-style: normal
+            font-weight: 600
+            font-size: 36px
+            line-height: 49px
+            color: #323232
+            margin-bottom: 2.2em
+            +smedium
+                text-align: center
+        .why__housesale__col__text
+            position: relative
+            color: #4A4A4A
+            font-family: $main__font
+            font-style: normal
+            font-weight: 400
+            margin-left: 8em
+            margin-bottom: 3em
+            +smedium
+                display: flex
+                flex-direction: column
+                margin-left: 0
+            .why__housesale__col__subtitle
+                font-size: 29px
+                line-height: 40px
+                +smedium
+                    font-size: 18px
+            .why__housesale__col__paragraph
+                font-size: 21px
+                line-height: 29px
+                +smedium
+                    font-size: 14px
+        .why__housesale__col__text:nth-child(2):before
+            content: url(../img/speaker.svg)
+            position: absolute
+            left: -20%
+            +smedium
+                position: relative
+                left: 0
+
+        .why__housesale__col__text:nth-child(3):before
+            content: url(../img/chat.svg)
+            position: absolute
+            left: -20%
+            +smedium
+                position: relative
+                left: 0
+        .why__housesale__col__text:nth-child(4):before
+            content: url(../img/dialogue.svg)
+            position: absolute
+            left: -20%
+            +smedium
+                position: relative
+                left: 0
+
+    
